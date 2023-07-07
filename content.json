@@ -168,13 +168,13 @@
 
 
         {
-            "LogName": "2Adding Seasonal Portraits",
+            "LogName": "2Adding in the seasonal Portraits",
             "Action": "EditImage",
-            "Target": "Portraits/Antonie",
+            "Target": "Portraits/Antoine",
             "FromFile": "assets/Portraits/Antoine{{Coat}}.png",
             "Update": "OnLocationChange",
-        },
 
+        },
 
 
 //Gift tastes
@@ -255,7 +255,7 @@
 {// CC done
   "Action": "EditData",
   "Target": "Characters/Dialogue/Antoine",
-  "When": {"IsCommunityCenterComplete": "true"}
+  "When": {"IsCommunityCenterComplete": "true"},
   "Entries": {
       "fall_26": "I thought about going to the festival at the center of town, but it always seems so crowded. #$b#I did try to visit the other festival location, but I'm just more comfortable staying at this one. Maybe because I know everyone?",
       },
