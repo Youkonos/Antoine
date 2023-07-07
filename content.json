@@ -1,0 +1,252 @@
+{
+    "Format": "1.28.0",
+//Config commented out atm.
+  /*  "ConfigSchema": {
+
+    }, */
+
+    "DynamicTokens": [
+
+//Specific Seasonal indoor outdoor tokens
+        //Indoor Outdoor
+
+    		{
+    				"Name": "Coat",
+    				"Value": "",
+    				"When":
+    				{
+    						"Season": "Summer",
+    				}
+    		},
+
+    		{
+    				"Name": "Coat", //Coat off while indoors
+    				"Value": "",
+    				"When":
+    				{
+    						"IsOutdoors": "false",
+    						"Season": "Spring, Fall",
+
+    				}
+    		},
+    		{
+    				"Name": "Coat", // Coat on while outdoors
+    				"Value": "_Coat",
+    				"When":
+    				{
+    						"IsOutdoors": "true",
+    						"Season": "Fall, Spring",
+
+    				}
+    		},
+
+        {
+    				"Name": "Coat", // Coat on while Indoors
+    				"Value": "_Coat",
+    				"When":
+    				{
+    						"IsOutdoors": "false",
+    						"Season": "Winter",
+
+    				}
+    		},
+        {
+    				"Name": "Coat", // Winter specific look
+    				"Value": "_WinterOutdoors",
+    				"When":
+    				{
+    						"IsOutdoors": "true",
+    						"Season": "Winter",
+
+    				}
+    		},
+
+
+//Has seen event Tokens
+
+{// Base, no heart events seen
+    "Name": "HEvent",
+    "Value": "",
+},
+{
+    "Name": "HEvent", // Has seen 3 heart event
+    "Value": ".3Heart",
+    "When":  {"HasSeenEvent": "1731705",}
+},
+{
+    "Name": "HEvent", // Has seen 6 heart event
+    "Value": ".6Heart",
+    "When":  {"HasSeenEvent": "1731706",}
+},
+{
+    "Name": "HEvent", // Has seen 8 heart event
+    "Value": ".8Heart",
+    "When":  {"HasSeenEvent": "1731707",}
+},
+{
+    "Name": "HEvent", // Has seen 10 heart event
+    "Value": ".10Heart",
+    "When":  {"HasSeenEvent": "1731709",}
+},
+
+
+
+//Antoine Heart measurer
+
+{// Base, no hearts
+    "Name": "AHeart",
+    "Value": "",
+},
+{
+    "Name": "AHeart", // At least 6 hearts
+    "Value": ".A6",
+    "When":  {"Hearts:Antoine": "6, 7, 8, 9",}
+},
+{
+    "Name": "AHeart", // 10 Hearts
+    "Value": ".A10",
+    "When":  {"Hearts:Antoine": "10",}
+},
+
+    ],
+
+    "Changes": [
+//B A S E   L O A D I N G
+
+//TESTING JELLO NPCs
+
+{
+  //Jello NPC disposition
+  "LogName": "1 Load Antoine Disposition",
+  "Action": "EditData",
+  "Target": "Data/NPCDispositions",
+  "Entries": {
+    "Antoine": "adult/polite/outgoing/positive/male/non-datable/null/Town/summer 28//Custom_Camilla_WarpRoom 3 3/Antoine"
+    }
+},
+
+//Load Stuff
+      {
+        "LogName": "1 Load Jello Char",
+      "Action": "Load",
+       "Target": "Characters/Antoine",
+       "FromFile": "assets/Characters/Antoine.png",
+          },
+
+      {
+      "LogName": "1 Load Jello Port",
+       "Action": "Load",
+       "Target": "Portraits/Antoine",
+        "FromFile": "assets/Portraits/Antoine.png",
+          },
+  //Load Dialogue
+
+  {				"LogName": "1Load Base Dialogue",
+          "Action": "Load",
+          "Target": "Characters/Dialogue/Antoine",
+          "FromFile": "data/dialogue.json",
+  },
+
+  //Load Schedule
+  {
+      //Blank until introduced
+      "LogName": "1Load Base (Empty)Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Antoine",
+      "FromFile": "data/schedule.json"
+    },
+
+
+
+
+//Seasonal edits
+
+
+        {
+            "LogName": "2Adding in the seasonal",
+            "Action": "EditImage",
+            "Target": "Characters/Antoine",
+            "FromFile": "assets/Characters/Antoine{{Coat}}.png",
+            "Update": "OnLocationChange",
+
+        },
+
+
+        {
+            "LogName": "2Adding Seasonal Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Antonie",
+            "FromFile": "assets/Portraits/Antoine{{Coat}}.png",
+            "Update": "OnLocationChange",
+        },
+
+
+
+//Gift tastes
+  {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+          "Antoine": "Oh! This is great! Thank you!/208 280 416 492 -79 -81 -74/Oh this is very nice. Thank you./-4 -7 -5 -6 -18 -25/Oh! You’re giving this to me? I’ll find some use for it. Thank you./-12 -2/Um. I’ll find some kind of use for it. Thanks./-28/Is this a gift? That's very nice of you. Thank you.// "
+      }
+  },
+
+
+//Enabled later
+/*
+{
+    //Antoine AntiSocial Flag
+    "Action": "EditData",
+    "Target": "Data/AntiSocialNPCs",
+    "Entries": {
+    "Antoine": true
+    }
+},
+{// Temp until 1.6
+    "Action": "EditData",
+    "Target": "Data/CustomNPCExclusions",
+    "Entries": {
+
+    "Antoine": "ItemDelivery, Socialize, WinterStar, ShopDialog, IslandVisit, PerfectFriend, MovieInvite, BeGreeted, Greet",
+
+}
+},
+*/
+
+//Rainy Dialogue
+
+{
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/rainy",
+  "Entries": {
+      "Antoine": "{{i18n:Antoine.Rainy.{{Season}}{{AHeart}}}}",
+      },
+  },
+
+
+
+//Conditional Dialogue
+
+{// CC done
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/Antoine",
+  "When": {"IsCommunityCenterComplete": "true"}
+  "Entries": {
+      "fall_26": "I thought about going to the festival at the center of town, but it always seems so crowded. #$b#I did try to visit the other festival location, but I'm just more comfortable staying at this one. Maybe because I know everyone?",
+      },
+  },
+
+
+//Extra Dialogue
+{
+    "Action": "EditData",
+    "Target": "Data/ExtraDialogue",
+    "Entries": {
+        "Town_DumpsterDiveComment_Antoine": "Oh, did you find anything interesting?",
+
+    }
+},
+
+
+    ]
+}

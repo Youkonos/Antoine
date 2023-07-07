@@ -1,0 +1,8 @@
+{
+//Rainy Dialogue
+
+"Antoine.Rainy.Spring": "Ah, it’s raining today. It feels really nice.$1",
+"Antoine.Rainy.Summer": "Mmm, it’s really hot today, so this rain feels really good.$1",
+"Antoine.Rainy.Fall": "Phew, it’s getting pretty cold, isn’t it? The rain is still pretty though.$1",
+
+}

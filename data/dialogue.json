@@ -1,0 +1,36 @@
+{
+//Special Dialogue
+
+//This is a conversation topic unlocked
+"FirstTalk": "It's really great to get to meet you! I hope we can be great friends.$1",
+
+
+"MovieInvitation": "Oh, a movie? Of course, I’d love to go! I wonder what it’ll be about?$1",
+
+//SPECIFIC DAY DIALOGUE
+"spring_4": "Did you grow any parsnips this year, @? I bet they're fully grown already!$1",
+"spring_10": "Coffee beans are actually the pit of a berry, which technically makes them a fruit!$1#$b#I just thought that was neat.$0",
+"spring_12": "A whole festival all about eggs! I’m so excited! What a fun thing to celebrate!",
+"spring_23": "I’m looking forward to tomorrow, I got my blue suit pressed and everything!",
+
+"summer_10": "What do you plan to bring for the soup tomorrow? I wanted to bring a giant melon, but I don’t think it’ll fit in the pot. Maybe if I hit it with an axe?",
+"summer_27": "Tomorrow will be so fun! Do you have any fruit for the display?",
+
+"fall_26": "I wish people could celebrate monsters all year round. Maybe they’d be nicer to them. #$b#I’m going to stay behind at the Inn when this is over so I can help clean up.",
+
+"winter_7": "I hope you have a lot of fun at the festival! It’s way too cold for me.",
+"winter_24": "A whole feast! I’m definitely going to have to brave the cold to make it!",
+
+
+
+//LOW HEART DIALOGUE
+//Spring
+"spring_Mon": "I love the spring, the flowers really start singing.$1",
+"spring_Tue": "",
+"spring_Wed": "",
+"spring_Thu": "",
+"spring_Fri": "",
+"spring_Sat": "",
+"spring_Sun": "",
+
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Antoine NPC",
+    "Author": "Written by Berry, Coded by Jello",
+    "Version": "1.0.0",
+    "Description": "A magic apple man living in East Scarp",
+    "UniqueID": "Berry.Antoine",
+    "UpdateKeys": ["Nexus:????"],
+    "Dependencies": [
+
+  {
+      "UniqueID": "LemurKat.EastScarpe.CP",
+      "IsRequired": true,
+  },
+  {
+      "UniqueID": "misscoriel.UCRFix",
+      "IsRequired": false,
+  },
+  {
+      "UniqueID": "misscoriel.courtship",
+      "IsRequired": false,
+  },
+     ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }
