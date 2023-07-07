@@ -79,11 +79,6 @@
     "When":  {"HasSeenEvent": "1731706",}
 },
 {
-    "Name": "HEvent", // Has seen 8 heart event
-    "Value": ".8Heart",
-    "When":  {"HasSeenEvent": "1731707",}
-},
-{
     "Name": "HEvent", // Has seen 10 heart event
     "Value": ".10Heart",
     "When":  {"HasSeenEvent": "1731709",}
@@ -219,10 +214,40 @@
   "Action": "EditData",
   "Target": "Characters/Dialogue/rainy",
   "Entries": {
-      "Antoine": "{{i18n:Antoine.Rainy.{{Season}}{{AHeart}}}}",
+      "Antoine": "{{i18n:Antoine.Rainy.{{Season}}{{HEvent}}}}",
       },
   },
 
+  //Snow dialogue
+
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Antoine",
+    "When": {"Weather": "Snow"},
+    "Entries": {
+      "winter_Mon": "{{i18n:Antoine.Snowy{{AHeart}}}}",
+      "winter_Tue": "",
+      "winter_Wed": "",
+      "winter_Thu": "",
+      "winter_Fri": "",
+      "winter_Sat": "",
+      "winter_Sun": "",
+      "winter_Mon6": "{{i18n:Antoine.Snowy{{AHeart}}}}",
+      "winter_Tue6": "",
+      "winter_Wed6": "",
+      "winter_Thu6": "",
+      "winter_Fri6": "",
+      "winter_Sat6": "",
+      "winter_Sun6": "",
+      "winter_Mon10": "{{i18n:Antoine.Snowy{{AHeart}}}}",
+      "winter_Tue10": "",
+      "winter_Wed10": "",
+      "winter_Thu10": "",
+      "winter_Fri10": "",
+      "winter_Sat10": "",
+      "winter_Sun10": "",
+        },
+    },
 
 
 //Conditional Dialogue
@@ -247,6 +272,56 @@
     }
 },
 
+
+
+//MAIL
+
+{
+    "Action": "EditData",
+    "Target": "Data/mail",
+    "Entries": {
+      //Needs recipe to add. Placeholder wizard letter BG atm.
+    "AntoineMail.Extract": "Dear @,^^I just learned something very interesting about Lemon Stones! Turns out, if you put one in an oil press it makes a honey colored extract. I don't really know what to do with the stuff yet, but it has a really nice, tart taste to it! Maybe don't try and drink it without mixing it into some water first.^^There's something about the smell of it that reminds me of my old home, but I'm not sure why. I'll probably figure it out if I use it in some things and see how they turn out.^^If I get anything good I'll let you know!^^Sincerely, Antoine[letterbg 2][#]So I just learned something interesting!",
+
+    "AntoineMail.LemonCordial": "Dear @,^^I had a dream last night that I was drifting among the trees of my old home and there was this scent that was pulling me through the branches. It was fresh and biting, but had the faintest notes of sweetness. Then I could hear the humming of old women and the clinking of glass. I glided slowly towards the sound, the smell getting stronger as I went, and then I saw it. Little old ladies in big hats and flower print dresses giggling and pouring this delicious looking drink into their glasses. When I woke up I remembered where I knew that taste from! ^^They used to make all sorts of drinks and desserts and foods with this citrus fruit in it. I remember wanting to taste those things so badly, but discerning flavor wasn't really something I was blessed with before. Now that I can, I'm so excited that I'll finally get to savor those delicious smelling things!^^The first thing I made was that drink those old ladies were having. If you add a lot of lemon stone extract into some water, and put some fruit and sugar in there with it, it's a really refreshing, cold drink. This is so fun! I wonder what else we can do with this stuff?^^Sincerely, Antoine[letterbg 2][#]Memories of citrus.",
+
+    "AntoineMail.SouthernTea": "Dear @,^^I was talking with Aideen and something she said reminded me of another nice drink from my old home. The tea leaves were different there, and the tea they made was brown instead of green. I also usually saw people drinking it with ice cubes inside! Of course they also added a bit of that citrus too.^^Aideen and I spent a lot of time seeing if we could recreate it here. Turns out green tea and black tea are really different, but she says that this recipe definitely makes something similar. I hope you really enjoy it!^^Sincerely, Antoine^^^P.S. Aideen said she would get me some black tea leaves so I can recreate it properly. I think I might have to be selfish and keep them all for myself though. Sorry![letterbg 2][#]Have you tried tea with ice before?",
+
+    "AntoineMail.SlimeCheese": "Dear @,^^Okay, so I saw this thing online saying that if you put slime in a cheese press that it makes slime cheese? That can't actually be true, right? Wouldn't it just mush the slime up in there? I kind of want to know if you can do that, and I also really don't. So, uh, do what you will with this information, I guess.^^Sincerely, Antoine[letterbg 2][#]Slime cheese?",
+
+    "AntoineMail.Seafu": "Dear @,^^I really like fish, but I heard that some people can't eat them! I started looking for things that could taste like fish, but wasn't really a fish, and I think I found something really interesting! If you put some seaweed into a mayonnaise maker it pops out something that tastes just like fish, but has a soft spongy texture. It seems like it would be really fun to experiment with, don't you think? You could probably use it instead of fish in any recipe for fish or with fish in it. ^^I'm so glad that people who can't eat fish can still enjoy seafood! ^^Sincerely, Antoine[letterbg 2][#]Fun Faux Fish",
+
+    "AntoineMail.TheColdChaser": "Dear @,^^It's too cold! I've been practically living inside my fireplace and my bones are still chilly. My throat was all scratchy too! I wanted to mix up a hot drink, but I was out of chocolate powder. I did have some things for tea though that Aideen gave me. So I mixed them together and it tasted really good. It made my scratchy throat go away too! I'm sending you the recipe to help you chase the cold away.^^Sincerely, Antoine[letterbg 2][#]TOO COLD",
+
+    //Fun letters
+    "AntoineMail.First": "Dear @,^^I know it may seem a little silly to send you a letter when we live in the same town, but I've always wanted to do this. I understand it's a little bit silly to send these when more instant forms of communication exist. There's just something so cool about it, and you live across town so it's sort of like having a penpal that I can see the face of every day! I hope you don't mind, and you don't have to reply if you don't want to. Or you can just send me a text or an email instead of a physical letter. Or come and talk to me. ^^Sincerely, Antoine[letterbg 2][#]My First Letter",
+
+    "AntoineMail.BackHome": "Dear @,^^I was thinking about my old home today and I felt a little melancholy. I love it here, but there are so many things I miss about where I came into being. I was there for such a long time, and while everything now is new and exciting, sometimes I just want the comfort of how things used to be. Which is so strange because I was often quite sad.^^See, I was always enamored with humans. For as long as I can remember. I  spent so much time in human towns I practically lived in them. I couldn't really be seen, but sometimes a kid would spot me and wave. It was lonely. Knowing that I was a person like you, but not being able to touch or talk to one.^^My family didn't really understand, but I never expected them to. They were happy with how they were created. They liked people, and liked to help them, but nature was where they belonged. Not stone streets and wooden houses with fires inside cooking delicious smelling things. I'm so much happier now. I have friends, and wonderful conversations, and food is just so good. So why do I miss a place where I only pined for what I have now? It's so very strange.^^Sincerely, Antoine[letterbg 2][#]I don't know why I miss it.[letterbg 2][#]I don't know why I miss it.",
+
+    "AntoineMail.SoConfused": "Dear @,^^I was out with Juliet today and Haley asked me to model for some pictures! It was really fun, and she was very nice to me. She was complimenting my hair, and my form, and she thought my eyes were very nice too. It felt good getting those kinds of compliments, but Juliet kept thinking they were funny. I like her laugh, so I didn't mind, but it really frustrated Haley.^^When Haley got some close-up pictures of me she fixed up my hair and took her time helping me to take off my coat so that I could move better to do other kinds of poses. She was very friendly, and she seemed to really enjoy the pictures she took of me, but Juliet just laughed the whole time. Then, when Haley asked if I wanted to eat something with her Juliet said she was barking up the wrong tree?^^I don't get it. I like getting to sample new foods, and Haley seemed like she would have a lot of fun things to talk about. Since I was spending time with Juliet today I left with her when she wanted to leave and Haley seemed unhappy about something and went home. Later I asked Juliet  why she was laughing, and said those things to Haley. She told me that I shouldn't confuse the poor girl, but I'm the one that's confused. I hope Haley isn't too upset, but I'm really excited to see the pictures later!^^Sincerely, Antoine[letterbg 2][#]I'm really confused.",
+
+    "AntoineMail.NotEvenBerries": "Dear @,^^I heard Pierre say that strawberries are the only fruit that have their seeds on the outside, but that's not true! See, the outside of a strawberry is actually covered in a bunch of tiny dried fruits. The seeds are on the inside of those fruits. Pretty cool, huh?^^They aren't berries either. They're a part of the rose family. Tomatoes are a berry though. Eggplants too!^^Sincerely, Antoine[letterbg 2][#]Berry Fun Facts",
+
+    "AntoineMail.Glasses": "Dear @,^^Jas asked me why I was wearing glasses if I didn't need them to see. Is that what glasses do? I had no idea! She was very informative about the specific function of glasses and it was so helpful. I just saw them in the river and thought they looked neat!^^Sincerely, Antoine[letterbg 2][#]My glasses. I can see without my glasses.",
+
+    "AntoineMail.Sunflowers": "Dear @,^^I woke up this morning to a hundred tiny voices singing to the sun. I always love it when sunflowers announce that summer is finally here. They have so much personality! Young sunflowers love watching the sun, and when they mature they always look off to the east together. ^^The head of the sunflower is a combination of a thousand tiny flowers. The petals are one of those flowers too, they just got out of their shell to say hello to the world!^^I really admire sunflowers. It took me way too long to do that for myself.^^Sincerely, Antoine[letterbg 2][#]The sunflowers are here!",
+
+    "AntoineMail.Roses": "Dear @,^^Fairy roses have been around longer than even ancient fruit. They've seen the world grow to be so big, and they've never forgotten it. One fairy rose can live for a thousand years. The old ones always have such strange songs, really haunting, but lovely too. As sweet as how they smell. ^^Sometimes I know the songs so well I end up humming them when I'm around the young fairy roses. I wonder if that's like teaching them the old ways?^^Sincerely, Antoine[letterbg 2][#]Old Roses",
+
+    "AntoineMail.LadyShiba": "Dear @, ^^Thanks a lot for helping that poor cat! I've been sneaking cheese to it whenever I can, but Jacob said that cheese isn't great for animals in large amounts. That seemed to be the only thing the poor kitty would take from me though, and even then only at a distance. Usually animals aren't afraid of me at all, so I hope it didn't have a really bad life before coming here.^^Sincerely, Antoine[letterbg 2][#]Stray No More",
+
+    "AntoineMail.Aideen": "Dear @, ^^I've seen Aideen spending a lot of time with Dr. Luis lately. Aideen is so smart and sweet natured, and Dr. Luis has a lot of energy and fun stories, I think they'll be really good friends soon! It's so great that Aideen is opening herself up to more friendship!^^Juliet says that Dr. Luis is Aideen's new bow. Do you think she meant that he wants to take Aideen to the caves with him? I'm not sure how she can be a bow, but then I can make tiny clouds rain over flowers, so I really can't be too judgemental.^^Sincerely, Antoine[letterbg 2][#]I'm so happy!",
+
+    "AntoineMail.Shane.NoRelationship": "Dear @, ^^Shane seems to have a lot more energy lately, and he's been smiling a lot more too! Being friends with you has helped him a lot, and it makes me so happy to see him feeling better. You really do a lot around here, you know? You make such a positive difference in everyone's lives. I hope you know that they all really appreciate it. You should hear them talk about you when you're not around!^^If there's anything I can do for you, just tell me. It's a lot of work supporting others if you don't have someone to support you too. I want to help you whenever I can.^^Sincerely, Antoine[letterbg 2][#]Shane looks so much better!",
+
+    "AntoineMail.Shane.HasRelationship": "Dear @,^^Shane seems to have a lot more energy lately, and he's been smiling a lot more too! Being friends with you has helped him a lot, and it makes me so happy to see him feeling better. You really do a lot around here, you know? You make such a positive difference in everyone's lives. I hope you know that they all really appreciate it. You should hear them talk about you when you're not around!^^If there's anything I can do for you, just tell me. It's a lot of work supporting others, and I'm happy you have someone who supports you too. I want to help them and you whenever I can.^^Sincerely, Antoine[letterbg 2][#]Shane looks so much better!",
+
+    //Event specific letters
+
+    "AntoineMail.ThanksNote": "Dear @, ^^Thanks so much for helping me talk to my family! It went really well, and I'm so happy. If not for you I never would have taken that chance! So thank you! I wanted to give you something nice too. I hope you really enjoy it. The next time you come and see me, if my family is there, you can say hi! I made sure they understand you're a very good human.^^Sincerely, Antoine[letterbg 2][#]Thank you!",
+
+    },
+},
 
     ]
 }

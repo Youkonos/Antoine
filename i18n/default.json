@@ -4,5 +4,58 @@
 "Antoine.Rainy.Spring": "Ah, it’s raining today. It feels really nice.$1",
 "Antoine.Rainy.Summer": "Mmm, it’s really hot today, so this rain feels really good.$1",
 "Antoine.Rainy.Fall": "Phew, it’s getting pretty cold, isn’t it? The rain is still pretty though.$1",
+"Antoine.Rainy.Spring.3Heart":  "The rain feels so nice when it's warm outside, but getting my clothes wet is so uncomfortable. #$b#I wish I could walk around in it without them, but the last time I tried I got a lot of funny looks.",
+"Antoine.Rainy.Summer.3Heart": "Ah, thank goodness, some refreshing rain.",
+"Antoine.Rainy.Fall.3Heart": "Normally I really like the rain, but when the weather gets like this it feels a bit too cold.",
+"Antoine.Rainy.Spring.6Heart": "Do you like going out in the rain too? I see you out in it a lot.",
+"Antoine.Rainy.Summer.6Heart": "Ahhhh, the rain feels so good! Don’t you think so, @?",
+"Antoine.Rainy.Fall.6Heart": "Ugh, it’s getting colder again. I love all the fruit and forage you can find in the fall, but I really wish it’d just stay warm.",
+"Antoine.Rainy.Spring.A10": "",
+"Antoine.Rainy.Summer.A10": "",
+"Antoine.Rainy.Fall.A10": "",
+
+//Snowing Dialogue
+"Antoine.Snowy": "Oh, you came all the way to my home just to visit me? You must be freezing! Would you like a hot drink?",
+"Antoine.Snowy.A6": "I was wondering if you were going to come visit me today. I guess my schedule is kind of predictable when it comes to the snow, huh?",
+"Antoine.Snowy.A10": "One day I'll be able to go outside while it's snowing, but that's definitely not today.",
+
+//Before Festival Dialogue
+"Antoine.PreEgg": "A whole festival all about eggs! I’m so excited! What a fun thing to celebrate!",
+"Antoine.PreFlower": "I’m looking forward to tomorrow, I got my blue suit pressed and everything!",
+"Antoine.PreLuau": "What do you plan to bring for the soup tomorrow? I wanted to bring a giant melon, but I don’t think it’ll fit in the pot. Maybe if I hit it with an axe?",
+"Antoine.PreJelly": "Tomorrow will be so fun! Do you have any fruit for the display?",
+"Antoine.PreFair": "",
+"Antoine.PreSpirit": "I wish people could celebrate monsters all year round. Maybe they’d be nicer to them. #$b#I’m going to stay behind at the Inn when this is over so I can help clean up.",
+"Antoine.PreIce": "I hope you have a lot of fun at the festival! It’s way too cold for me.",
+"Antoine.PreFeast": "A whole feast! I’m definitely going to have to brave the cold to make it!",
+
+"Antoine.PreEgg.3Heart": "I wish I could do some special magic at the festival tomorrow, but I’m not sure how people would take it.",
+"Antoine.PreFlower.3Heart": "Last night the flowers were very excited, I think they love the dance as much as everyone else here does.",
+"Antoine.PreLuau.3Heart":"Are you looking forward to all of that food tomorrow? I bet the leftovers keep you fed for weeks.",
+"Antoine.PreJelly.3Heart": "",
+"Antoine.PreFair.3Heart": "",
+"Antoine.PreSpirit.3Heart":"Tomorrow everyone gets to dress up as monsters or fairies or princesses. Really anything they want.#$B# I'm glad people are so comfortable turning into something else here, even if it's just for one night.",
+"Antoine.PreIce.3Heart": "",
+"Antoine.PreFeast.3Heart":"Tomorrow is going to have a lot of strange energies. It happens every year and I never really know what to make of it. At least everyone seems really happy. #$b#At least the food is always extra delicious. Maybe that has something to do with it?",
+
+
+"Antoine.PreEgg.6Heart": "It’s the egg festival! The festival of eggs! I’m excited, are you excited, eggs, eggs, eggs!",
+"Antoine.PreFlower.6Heart": "You know, I’m not sure flowers like dancing. I invite them every year and they never show up!",
+"Antoine.PreLuau.6Heart": "I got something really nice for the soup this year! Now I just have to manage to not eat it before tomorrow.",
+"Antoine.PreJelly.6Heart": "I love how calm and awe filled the night is when the Moonlight Jellies put on their show for everyone.",
+"Antoine.PreFair.6Heart": "I can’t wait to see your display! I bet it’ll be full of tasty, pretty things!",
+"Antoine.PreSpirit.6Heart": "OoOOooOOoo is spooky. OooOOoOooOoo is scary. OoooOoooOO BOO!",
+"Antoine.PreIce.6Heart": "Have fun at the festival tomorrow! I’m going to stay home with some hot coco.",
+"Antoine.PreFeast.6Heart": "I know there’s more about the feast than just, well, the feast part, but that’s all I can ever think about! I guess I’m just not in a giving mood when it’s so cold out.",
+
+
+"Antoine.PreEgg.10Heart": "I invited my family to the festival, but I think they’ll only get to be there in spirit. Ha, get it?",
+"Antoine.PreFlower.10Heart": "The flower dance is going to be extra special tomorrow. I can't wait!",
+"Antoine.PreLuau.10Heart": "I’m afraid to invite my family to the Luau. One time I attended it when I was in my old form and a kid tried to throw me into the pot!",
+"Antoine.PreJelly.10Heart": "My family comes to watch the jellies every year! They like to make the lanterns shine brighter.",
+"Antoine.PreFair.8Heart": "I invited my family to see the fair, but I think it gets too busy for them to stick around for long.",
+"Antoine.PreSpirit.10Heart": "My family loves the fun festivals you all put together, but this one is their favorite. They always dress up as spiders!",
+"Antoine.PreIce.10Heart": "",
+"Antoine.PreFeast.10Heart": "I thought about inviting my family to the feast, because it’s all about togetherness, but it’d be way too cold for them.",
 
 }
