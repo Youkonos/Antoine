@@ -2,45 +2,43 @@
 //Special Dialogue
 
 //This is a conversation topic unlocked
-"FirstTalk": "It's really great to get to meet you! I hope we can be great friends.$1",
+"FirstTalk": "It's really great to get to meet you! I hope we can be great friends.$h",
 
-"cc_Minecart":  "It should be much easier to travel through town now. Though the ride is a bit scary.",
-"cc_Bus": "Coconuts are so versatile! They're tasty, they go well in desserts and drinks, and their oil is so good for your skin too.",
-"cc_Boulder": "Ah, the water was straining quite a lot. It must be a relief to flow freely once again.",
-"cc_Greenhouse": "A greenhouse is a wonderful thing. I'm happy you managed to obtain one.",
-"movieTheater": "We have a movie theater. It's nice to see that space being repurposed.",
-"cc_Complete":  "It doesn't surprise me that you gravitated towards the community here. I wonder if magic had not been at your back if you would have done as well?#$b#Regardless, I'm very happy that everyone is coming together.",
-"joja_Begin": "Be careful with your choices. You are dynamic, and your actions affect more than just yourself.",
-"pamHouseUpgrade": "It was so nice of you to give Pam and Penny a better home! Maybe if Pam is surrounded by wood instead of metal she can start to feel better.",
-"pamHouseUpgradeAnonymous": "Did you hear that someone built Pam and Penny a house? Maybe if Pam is surrounded by wood instead of metal she can start to feel better.",
-
-"MovieInvitation": "Oh, a movie? Of course, I'd love to go! I wonder what it'll be about?$1",
+"cc_Minecart":  "It should be much easier to travel through town now. Though the ride is a bit scary.$h",
+"cc_Bus": "Coconuts are so versatile! They're tasty, they go well in desserts and drinks, and their oil is so good for your skin too.$h",
+"cc_Boulder": "Ah, the water was straining quite a lot. It must be a relief to flow freely once again.$h",
+"cc_Greenhouse": "A greenhouse is a wonderful thing. I'm happy you managed to obtain one.$h",
+"movieTheater": "We have a movie theater. It's nice to see that space being repurposed.$h",
+"cc_Complete":  "It doesn't surprise me that you gravitated towards the community here. I wonder if magic had not been at your back if you would have done as well?$0#$b#Regardless, I'm very happy that everyone is coming together.$h",
+"joja_Begin": "Be careful with your choices. You are dynamic, and your actions affect more than just yourself.$s",
+"pamHouseUpgrade": "It was so nice of you to give Pam and Penny a better home! Maybe if Pam is surrounded by wood instead of metal she can start to feel better.$h",
+"pamHouseUpgradeAnonymous": "Did you hear that someone built Pam and Penny a house? Maybe if Pam is surrounded by wood instead of metal she can start to feel better.$h",
 
 //Gifted Yam
-"accept_280": "A yam? Thanks, @! This is my favorite snack! They're just so versatile!$1"
+"accept_280": "A yam? Thanks, @! This is my favorite snack! They're just so versatile!$h"
 
 //Gifted Snow Yam
-"accept_416": "Ah, the snow yam. A little more bitter than the yam you grow in the fall, but still tasty. Thank you! You really made my day.$1"
+"accept_416": "Ah, the snow yam. A little more bitter than the yam you grow in the fall, but still tasty. Thank you! You really made my day.$h"
 
 //Gifted Glazed Yams
-"accept_208": "Ooooh, it smells delicious! Thanks, @! I'm going to eat this as soon as I get home.$1"
+"accept_208": "Ooooh, it smells delicious! Thanks, @! I'm going to eat this as soon as I get home.$h"
 
 //Gifted Yam Seeds
-"accept_492": "Yam seeds! I've been needing more of these. Thank you!$1"
+"accept_492": "Yam seeds! I've been needing more of these. Thank you!$h"
 
 
 //SPECIFIC DAY DIALOGUE
-"spring_4": "Did you grow any parsnips this year, @? I bet they're fully grown already!$1",
-"spring_10": "Coffee beans are actually the pit of a berry, which technically makes them a fruit!$1#$b#I just thought that was neat.$0",
+"spring_4": "Did you grow any parsnips this year, @?$l#$b#I bet they're fully grown already!$h",
+"spring_10": "Coffee beans are actually the pit of a berry, which technically makes them a fruit!$l#$b#I just thought that was neat.$h",
 "spring_12": "{{i18n:Antoine.PreEgg{{HEvent}}}}",
 "spring_23": "{{i18n:Antoine.PreFlower{{HEvent}}}}",
 
-"summer_5": "Why do people complain about burning when they eat hot peppers? They don't seem that hot to me.#$b#Emily said that birds don't think hot peppers are hot either.",
+"summer_5": "Why do people complain about burning when they eat hot peppers? They don't seem that hot to me.$7#$b#Emily said that birds don't think hot peppers are hot either.$h",
 "summer_10": "{{i18n:Antoine.PreLuau{{HEvent}}}}",
 "summer_27": "{{i18n:Antoine.PreJelly{{HEvent}}}}",
 
-"fall_5": "I wonder why Juliet laughs when I talk about how big eggplants are?",
-"fall_10": "Everybody talks about fall reminding them of pumpkins, but I always think about yams!#$b#They're just so tasty, and can go in anything, and they're really nice glazed or in a pie.",
+"fall_5": "I wonder why Juliet laughs when I talk about how big eggplants are?$7",
+"fall_10": "Everybody talks about fall reminding them of pumpkins, but I always think about yams!$l#$b#They're just so tasty, and can go in anything, and they're really nice glazed or in a pie.$h",
 "fall_15": "{{i18n:Antoine.PreFair{{HEvent}}}}",
 "fall_26": "{{i18n:Antoine.PreSpirit{{HEvent}}}}",
 "winter_7": "{{i18n:Antoine.PreIce{{HEvent}}}}",
@@ -50,115 +48,115 @@
 
 //LOW HEART DIALOGUE
 //Spring
-"spring_Mon": "I love the spring, the flowers really start singing.$1",
-"spring_Tue": "I woke up this morning and my porch was covered in pollen! I gathered it up with some wind magic and blew it towards some flowers, I hope it was helpful for them.$1",
-"spring_Wed": "Aideen really respects her flowers and they can tell! That's why they want to look extra pretty for her.$1",
-"spring_Thu": "I was sort of surprised to see how small bees are in the valley. At home they're big bumbly guys.$1",
+"spring_Mon": "I love the spring, the flowers really start singing.$h",
+"spring_Tue": "I woke up this morning and my porch was covered in pollen!$h#$b#I gathered it up with some wind magic and blew it towards some flowers, I hope it was helpful for them.$0",
+"spring_Wed": "Aideen really respects her flowers and they can tell! That's why they want to look extra pretty for her.$h",
+"spring_Thu": "I was sort of surprised to see how small bees are in the valley. At home they're big bumbly guys.$h",
 "spring_Fri": "Do you find yourself really busy this time of year? I just can't seem to get everything done before summer brings in new flowers.$0",
 "spring_Sat": "Spring is almost over. I'm going to miss watching petals dance in the soft breeze.$0",
 "spring_Sun": "Are you ready for summer yet, @? I never really feel like I am.$0",
 
 //Summer
-"summer_Mon": "Everyone in town really seems to like summer time, don't they?$1",
-"summer_Tue": "Back home sunflower's look like big, yellow, puff balls. I was pretty surprised when they had such cute faces here!$1",
+"summer_Mon": "Everyone in town really seems to like summer time, don't they?$h",
+"summer_Tue": "Back home sunflower's look like big, yellow, puff balls. I was pretty surprised when they had such cute faces here!$h",
 "summer_Wed": "The mountain goats seem really lively in all this heat. I wonder why they like it so much? Maybe it reminds them of home?$0",
-"summer_Thu": "Eloise helped me name some flowers today, she had some really fun suggestions. My favorite was Mr. Wigglepetals.$1",
-"summer_Fri": "It's really strange how some of the fruits that I enjoyed growing at home don't seem to like it here. I guess they just prefer a more humid climate.$0",
-"summer_Sat": "The other day I used a spell to chill my drink because I ran out of ice. A silly use of magic, but man the drink was tasty.$1",
+"summer_Thu": "Eloise helped me name some flowers today, she had some really fun suggestions. My favorite was Mr. Wigglepetals.$h",
+"summer_Fri": "It's really strange how some of the fruits that I enjoyed growing at home don't seem to like it here.$7#$b#I guess they just prefer a more humid climate.$0",
+"summer_Sat": "The other day I used a spell to chill my drink because I ran out of ice. A silly use of magic, I know, but man the drink was tasty.$h",
 "summer_Sun": "Fall is just around the corner. I've been saying my farewells to the leaves on the trees before the wind takes them on their final journey.$0",
 
 //Fall
-"fall_Mon": "Spring hasn't been gone that long, but I already kind of miss it.$10",
+"fall_Mon": "Spring hasn't been gone that long, but I already kind of miss it.$0",
 "fall_Tue": "Rosa really works hard to help everyone else out. I'm glad I'm able to help her sometimes too.$0",
 "fall_Wed": "I asked Gus if he could mix some drinks with more spice in them, but I think he thought I meant adding a lot of hot peppers. It was still tasty though.$0",
 "fall_Thu": "I really love just wandering around and tasting all of the treats the bushes and trees prepare for everyone.$0",
-"fall_Fri": "It's getting colder. I wish it could stay warm, but the colors are very nice, aren't they?$1",
+"fall_Fri": "It's getting colder. I wish it could stay warm, but the colors are very nice, aren't they?$h",
 "fall_Sat": "I'm going to have to break out my scarf soon. It's very cozy, but sometimes wearing it for too long makes me itchy.$0",
 "fall_Sun": "Winter is coming. Forgive me if I'm a little melancholy, @. I always get this way before the snow falls.$0",
 
 //Winter
 "winter_Mon": "I've roasted all of the hazelnuts I gathered in the fall. I was going to bring some to you, but I ended up just eating them all. Sorry.$0",
 "winter_Tue": "Gus says that coffee stays warmer if you add cream to it. I wonder if that applies to hot chocolate too?$0",
-"winter_Wed": "Nothing grows in winter but fiber and forage.#$b#Snow yams are pretty nice though.$0",
-"winter_Thu": "Cold weather doesn't seem to agree with me. I know it can't just stay warm forever, even the flowers need to rest sometimes.$0",
-"winter_Fri": "I wish I could stay home when it's cold like this, but there are flowers that love the snow and it's not fair if I just ignore them because I'm uncomfortable.$0",
+"winter_Wed": "Nothing grows in winter but fiber and forage.$2#$b#Snow yams are pretty nice though.$0",
+"winter_Thu": "Cold weather doesn't seem to agree with me. I know it can't just stay warm forever, even the flowers need to rest sometimes.$2",
+"winter_Fri": "I wish I could stay home when it's cold like this, but there are flowers that love the snow and it's not fair if I just ignore them because I'm uncomfortable.$2",
 "winter_Sat": "I've collected a bunch of snow yams to roast in my fireplace. They're a little bitter, but much softer and a bit warmer than regular yams.$0",
 "winter_Sun": "The snow is very pretty, and I love that there is water everywhere, even if it's frozen. I just wish it didn't bite me when I touched it.$0",
 
 
 //6 Heart dialogue
 //Spring
-"spring_Mon6": "Hey, @. Out for a nice walk? Me too!$1",
+"spring_Mon6": "Hey, @. Out for a nice walk? Me too!$h",
 "spring_Tue6": "You know, I've been here for a while now and I still haven't gotten used to how dry the air is.$0",
-"spring_Wed6": "Have I told you that I really appreciate that you take so much time out of your day to chat with me? Well now I am!$1",
-"spring_Thu6": "You know, Pierre and Morris seem to really hate each other even though they have a lot in common. If they just sat down and talked they could probably be good friends.$0",
-"spring_Fri6": "Have you ever looked at a sweet gem berry and just wanted to bite into it? Don't. It's a mistake.$0",
-"spring_Sat6": "So apparently everyone in East Scarpe complains about the crabs that show up there at night, but I don't really understand why. I've never had one pinch me once.$1",
-"spring_Sun6": "$1",
+"spring_Wed6": "Have I told you that I really appreciate that you take so much time out of your day to chat with me? Well now I am!$h",
+"spring_Thu6": "You know, Pierre and Morris seem to really hate each other even though they have a lot in common. If they just sat down and talked they could probably be good friends.$7",
+"spring_Fri6": "Have you ever looked at a sweet gem berry and just wanted to bite into it?$7#$b# Don't. It's a mistake.$2",
+"spring_Sat6": "So apparently everyone in East Scarpe complains about the crabs that show up there at night, but I don't really understand why. I've never had one pinch me once.$7",
+"spring_Sun6": "You know, they didn't used to always call it spring. They had another word for it, but it was changed to springing because plants were springing forth from the ground.$l#$b#The name changed to spring-time about 100 years later and was eventually shortened to just spring.$l",
 
 //Summer
-"summer_Mon6": "Phew! It's getting pretty hot, huh? I really hope it rains again soon!$1",
-"summer_Tue6": "Back home it'd get so humid you could go outside and practically drown standing up.$1",
-"summer_Wed6": "I heard on the wind that %favorite was your favorite thing in the world. I think that's really interesting.$1",
-"summer_Thu6": "I accidentally startled Haley earlier by watering a flower while she was trying to take a picture of some birds. She had some ... opinions about it.$0",
+"summer_Mon6": "Phew! It's getting pretty hot, huh? I really hope it rains again soon!$h",
+"summer_Tue6": "Back home it'd get so humid you could go outside and practically drown standing up.$h",
+"summer_Wed6": "I heard on the wind that %favorite was your favorite thing in the world. I think that's really interesting.$h",
+"summer_Thu6": "I accidentally startled Haley earlier by watering a flower while she was trying to take a picture of some birds. She had some ... opinions about it.$s",
 "summer_Fri6": "Hmmm. Jaz asked me to help her name one of the new chickens. What do you think of %name?$0",
-"summer_Sat6": "They're really hard to find, but purple mushrooms have such a unique flavor.$1#b#I tried to make some fried mushrooms from them for the wizard and, uh, well, it was definitely received.%1",
-"summer_Sun6": "Ginger always reminds me of tiger slimes. They smell good too!$1",
+"summer_Sat6": "They're really hard to find, but purple mushrooms have such a unique flavor.$7#b#I tried to make some fried mushrooms from them for the wizard and, well, it was definitely received.$u",
+"summer_Sun6": "Ginger always reminds me of tiger slimes. They smell good too!$h",
 
 //Fall
 "fall_Mon6": "Ugh, it's getting colder again. I love all the fruit and forage you can find in the fall, but I really wish it'd just stay warm.$0",
-"fall_Tue6": "I spent the week gathering hazelnuts to give to Linus, and he really enjoyed them. We roasted them over his fire together.%revealtasteLinus408$1",
-"fall_Wed6": "A friend was telling me about cave carrot brulee and my mouth started watering. Now I just HAVE to taste it.$1#$b#Oh, or maybe I'll try cave carrot au gratin instead?",
-"fall_Thu6": "Linus and I had a big yam bake last night!$1#$b#I couldn't really get him to come to my place to use the oven, but cooking everything over an open fire was just as nice.$0",
-"fall_Fri6": "Do you know what to cook with cactus friut? Emily brought some back with her when she went to visit her friend in the Calico Desert, and was very kind to give me some.$1",
-"fall_Sat6": "You have a pet, right @? I've thought about getting one, but they seem like a lot of trouble. I bet you feel like %pet is pretty worth it though, huh?$1",
-"fall_Sun6": "Fall leaves are brighter when there's been a lot of warm days followed by cold evenings. Just so long as it doesn't get too cold.#b#Ha ha, I feel the same way.$1",
+"fall_Tue6": "I spent the week gathering hazelnuts to give to Linus, and he really enjoyed them. We roasted them over his fire together.%revealtasteLinus408$h",
+"fall_Wed6": "A friend was telling me about cave carrot brulee and my mouth started watering. Now I just HAVE to taste it.$h#$b#Oh, or maybe I'll try cave carrot au gratin instead?$7",
+"fall_Thu6": "Linus and I had a big yam bake last night!$h#$b#I couldn't really get him to come to my place to use the oven, but cooking everything over an open fire was just as nice.$0",
+"fall_Fri6": "Do you know what to cook with cactus fruit? Emily brought some back with her when she went to visit her friend in the Calico Desert, and was very kind to give me some.$h",
+"fall_Sat6": "You have a pet, right @? I've thought about getting one, but they seem like a lot of trouble. I bet you feel like %pet is pretty worth it though, huh?$h",
+"fall_Sun6": "Fall leaves are brighter when there's been a lot of warm days followed by cold evenings. Just so long as it doesn't get too cold.#b#Ha ha, I feel the same way.$h",
 
 //Winter
-"winter_Mon6": "It's so cold! Huh? Why don't I just use magic to warm myself up? I really try not to use too much magic just on myself. People can get really twisted up that way.$0",
+"winter_Mon6": "It's so cold! Huh? Why don't I just use magic to warm myself up? I really try not to use too much magic just on myself. People can get really twisted up that way.$2",
 "winter_Tue6": "I was telling Eloise and Jas that holly is actually a stone fruit, but then Vincent wanted to some. Luckily Penny managed to stop him in time.$0",
-"winter_Wed6": "You know, the sun looks bigger during the winter. Demetrius says it's because the sun is closer to us, but it sure doesn't make things any warmer.$0",
-"winter_Thu6": "I had a sort of lazy morning. It's hard to feel like getting things done sometimes.$0",
-"winter_Fri6": "Mmmm, I should have made more hot chocolate to drink. I finished my last mug of it earlier and I miss it already.$0",
-"winter_Sat6": "I learned yesterday that snow isn't white. It's actually clear and the light reflecting off of it makes it white. Just, uh, don't stare at it too long or you can go blind.$0",
-"winter_Sun6": "%Antoine smiles at you, but doesn't really feel like talking today.$0",
+"winter_Wed6": "You know, the sun looks bigger during the winter. Demetrius says it's because the sun is closer to us, but it sure doesn't make things any warmer.$2",
+"winter_Thu6": "I had a sort of lazy morning. It's hard to feel like getting things done sometimes.$6",
+"winter_Fri6": "Mmmm, I should have made more hot chocolate to drink. I finished my last mug of it earlier and I miss it already.$s",
+"winter_Sat6": "I learned yesterday that snow isn't white. It's actually clear and the light reflecting off of it makes it white. Just, uh, don't stare at it too long or you can go blind.$7",
+"winter_Sun6": "%Antoine smiles at you, but doesn't really feel like talking today.",
 
 
 //10 Heart dialogue
 //Spring
-"spring_Mon10": "It's a really nice day today! It's even nicer because I got to say hi to you.",
-"spring_Tue10": "I was thinking this morning about how a honey bee worker only makes an average of 1/12 of a teaspoon in her lifetime.#$b#That doesn't sound like much to us, but for something so small that lives for such a short time, it really is a big contribution.",
-"spring_Wed10": "Has anyone told you that you smell like the earth? Not just the soil, but the spirit too.",
-"spring_Thu10": "Hey, @, before you make a phone call, do you ever rehearse what you are going to say? I find it kind of helpful.",
-"spring_Fri10": "I asked Maru once what radioactive vegetables would taste like, and she said that it wouldn't taste like anything, and in fact, we'd never know if it was irradiated at all. How spooky.",
-"spring_Sat10": "Hey, @. What do you think color of a mirror is? I asked the wizard, but the answer took a couple of hours. I sort of zoned out half way through.",
-"spring_Sun10": "",
+"spring_Mon10": "It's a really nice day today! It's even nicer because I got to say hi to you.$h",
+"spring_Tue10": "I was thinking this morning about how a honey bee worker only makes an average of 1/12 of a teaspoon in her lifetime.$7#$b#That doesn't sound like much to us, but for something so small that lives for such a short time, it really is a big contribution.$h",
+"spring_Wed10": "Has anyone told you that you smell like the earth? Not just the soil, but the spirit too.$h",
+"spring_Thu10": "Hey, @, before you make a phone call, do you ever rehearse what you are going to say?$7#$b# I find it kind of helpful.$h",
+"spring_Fri10": "I asked Maru once what radioactive vegetables would taste like, and she said that it wouldn't taste like anything, and in fact, we'd never know if it was irradiated at all. How spooky.$7",
+"spring_Sat10": "Hey, @. What do you think color of a mirror is? I asked the wizard, but the answer took a couple of hours. I sort of zoned out half way through.$7",
+"spring_Sun10": "Sometimes I sneak some magic into the feed Marnie gives to her chickens to give their feathers some more luster.$u#$b#Please don't tell Jaz though, she thinks they're looking better because she's been reading them bed time stories and it's making them happier.$h",
 
 //Summer
-"summer_Mon10": "Phew! It's getting pretty hot, huh? I really hope it rains again soon!",
-"summer_Tue10": "If I had a magic box that could bring back any inanimate object that I've lost in my entire life, I think I'd use it to bring back the ribbon that I lost when I tied up my new hair for the very first time.",
-"summer_Wed10": "Sometimes I wonder if eternity actually exists. One day the spheres may stop singing and everything would turn to nothingness. Though, I guess if it turns into nothing, it's technically still turning into something. Hmmm.",
-"summer_Thu10": "I heard that the pineapple is called that because it looks like a child's head with a thousand eyes.",
-"summer_Fri10": "I heard Maru and same argue about if chickens came first or eggs did. It sort of devolved into Maru yelling eggs come first, and Sam yelling chickens come first. Then Juliet started laughing and wouldn't explain why.",
-"summer_Sat10": "So, Juliet brought home some lemon juice, but it said it had artificial flavors. Which I find really strange, because Jessie brought home dish soap and it had real lemons in it.",
-"summer_Sun10": "It got so hot last night I actually took a nap inside my fridge. Hmm? Yes, I know it's too small to fit a body.",
+"summer_Mon10": "Phew! It's getting pretty hot, huh? I really hope it rains again soon!$h",
+"summer_Tue10": "If I had a magic box that could bring back any inanimate object that I've lost in my entire life, I think I'd use it to bring back the ribbon that I lost when I tied up my new hair for the very first time.$0",
+"summer_Wed10": "Sometimes I wonder if eternity actually exists. One day the spheres may stop singing and everything would turn to nothingness. Though, I guess if it turns into nothing, it's technically still turning into something. Hmmm.$7",
+"summer_Thu10": "I heard that the pineapple is called that because it looks like a child's head with a thousand eyes.$h",
+"summer_Fri10": "I heard Maru and Sam arguing about if chickens came first or eggs did. It sort of devolved into Maru yelling eggs come first, and Sam yelling chickens come first. Then Juliet started laughing and wouldn't explain why.$7",
+"summer_Sat10": "So, Juliet brought home some lemon juice, but it said it had artificial flavors. Which I find really strange, because Jessie brought home dish soap and it had real lemons in it.$7",
+"summer_Sun10": "It got so hot last night I actually took a nap inside my fridge. Hmm? Yes, I know it's too small to fit a body.$h",
 
 //Fall
-"fall_Mon10": "Traditionally, this time of year my family and I would bless all the forage in the forest so that they get really plump and juicy. We'd have a little contest about who could make something grow the biggest!",
-"fall_Tue10": "I've always had mixed feelings about this time of year. Everything needs to change in order to grow, but also I miss what we lose in the process.",
-"fall_Wed10": "Fall leaves have all those colors inside of them all year round, but we only get to see it when they are about to let out their last breath.",
-"fall_Thu10": "Vincent swallowed some gum yesterday and thought he was going to die.",
-"fall_Fri10": "I spent a few hours yesterday just listening to Juliet and Rosa debate if cereal counts as a soup or not. Juliet was staunchly pro soup, but honestly it seems too chunky to be a soup. Maybe a stew?",
-"fall_Sat10": "The wizard says that space tastes like salmonberries. Now I just want to make a tart out of the galaxy.",
-"fall_Sun10": "I remember when people thought the sky was actually another sea, like the ocean, and stars were just floating in it. It's a nice idea, isn't it? Just making a ship and sailing to the moon?",
+"fall_Mon10": "Traditionally, this time of year my family and I would bless all the forage in the forest so that they get really plump and juicy. We'd have a little contest about who could make something grow the biggest!$h",
+"fall_Tue10": "I've always had mixed feelings about this time of year. Everything needs to change in order to grow, but also I miss what we lose in the process.$0",
+"fall_Wed10": "Fall leaves have all those colors inside of them all year round, but we only get to see it when they are about to let out their last breath.$h",
+"fall_Thu10": "Vincent swallowed some gum yesterday and thought he was going to die because it was going to plug up his organs.$2#$b#Luckily Dr. Harvey was close by help by pretending he was giving him a piece of candy that would melt the gum in his stomach.$h",
+"fall_Fri10": "I spent a few hours yesterday just listening to Juliet and Rosa debate if cereal counts as a soup or not. Juliet was staunchly pro soup, but honestly it seems too chunky to be a soup. Maybe a stew?$7",
+"fall_Sat10": "The wizard says that space tastes like salmonberries. Now I just want to make a tart out of the galaxy.$u",
+"fall_Sun10": "I remember when people thought the sky was actually another sea, like the ocean, and stars were just floating in it. It's a nice idea, isn't it? Just making a ship and sailing to the moon?$h",
 
 //Winter
-"winter_Mon10": "It's so cold! Too cold! I can't wait for it to be warm again!",
-"winter_Tue10": "You know, if I had to replace my left hand with a kitchen tool I think it would be a chef's knife.#b#Though, you know, a serrated knife would be good too...",
-"winter_Wed10": "Do you think people would be upset if I took home a pepper rex? This time of year that fire breath would be really nice to have around.",
-"winter_Thu10": "Have you ever just cooked up a bunch of yams, crushed them up into a big bowl with honey, and just dug into it with your hands? It's so warm.",
-"winter_Fri10": "Gus said the taste of Pam's tuna casserole was indescribable, which I find really confusing. Didn't he just described it?",
-"winter_Sat10": "Last night I was wondering if I'm actually alive or if I'm just existing. I want to think that I'm alive, but then I would to think that, right? I didn't get much sleep.",
-"winter_Sun10": "I went into a room this morning and forgot why I was there, which had me pretty confused because my house is just one big room."
+"winter_Mon10": "It's so cold! Too cold! I can't wait for it to be warm again!$a",
+"winter_Tue10": "You know, if I had to replace my left hand with a kitchen tool I think it would be a chef's knife.#b#Though, a serrated knife would be good too...$7",
+"winter_Wed10": "Do you think people would be upset if I took home a pepper rex? This time of year that fire breath would be really nice to have around.$0",
+"winter_Thu10": "Have you ever just cooked up a bunch of yams, crushed them up into a big bowl with honey, and just dug into it with your hands? It's so warm.$0",
+"winter_Fri10": "Gus said the taste of Pam's tuna casserole was indescribable, which I find really confusing. Didn't he just describe it?$7",
+"winter_Sat10": "Last night I was wondering if I'm actually alive or if I'm just existing. I want to think that I'm alive, but then I would to think that, right? I didn't get much sleep.$s",
+"winter_Sun10": "I went into a room this morning and forgot why I was there, which had me pretty confused because my house is just one big room.$s"
 
 }
