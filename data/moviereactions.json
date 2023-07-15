@@ -1,0 +1,248 @@
+{ 
+  "Changes": [
+
+
+	{//Movie Acceptance
+        "Action": "EditData",
+        "Target": "Strings/Characters",
+        "Entries": {
+            "MovieInvite_Invited_Antoine": "You want me to watch a movie with you? Oh, I'd love to, @!$h"
+            }
+    },
+ 
+
+  {//Movie Tastes   
+  	"LogName": "Movie Theatre Default",
+    "Action": "EditData", 
+    "Target": "Data/MoviesReactions",	 
+	"Entries": {
+		"Antoine": {
+			"NPCName": "Antoine",
+			"Reactions": [
+				{//Generic
+					      "Tag": "*",
+                          "Response": "like",
+                          "Whitelist": [],
+                          "SpecialResponses": {
+                                "BeforeMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "I'm really excited. I don't really like going to the movies by myself, and everyone in town seems to already have a favorite person that they'd rather watch one with.$0#$b#It really means a lot that you think about me as a favorite person that you want to see a movie with.$h"
+                                      },
+                                "DuringMovie": null,
+                                "AfterMovie": {
+                                      "ResponsePoint": null,
+                                      "Script": "",
+                                      "Text": "The snack you got me was really delicious! Huh? What did I think of the movie? Um, I got a little lost so I'm not actually sure I understood what it was about.$0#$b#I hope you're not disappointed. I'd love to go to the movies with you again.$h"
+                                      }
+                                },
+                          "ID": "reaction_0"
+                },
+
+                {//The Brave Little Sapling
+					  "Tag": "spring_movie_0",
+					  "Response": "love",
+					  "Whitelist": [],
+					  "SpecialResponses": {
+							"BeforeMovie": {  
+								  "ResponsePoint": null,
+								  "Script": "/message \"Antoine gets visibly excited.\"",
+								  "Text": "Oh! We're going to watch The Brave Little Sapling? I love this one!$h"
+									  },
+							"DuringMovie": {
+								  "ResponsePoint": "sprout_leave",
+								  "Script": "/message \"Antoine is leaning forward, absolutely enthralled.\"",
+								  "Text": "Oh, @, pay attention. This is the best part.$l"
+									  },
+							"AfterMovie": {
+								  "ResponsePoint": null,
+								  "Script": "",
+								  "Text": "The message in this movie is so important, don't you think? The balance between sadness and happiness is crucial to a good life.$h#$b#Too much rain would drown the earth, but too much sun can also burn and make things dry and hollow. It's comforting to be reminded of things like that.$0"
+									  }
+						   },
+				   "ID": "reaction_1"
+				},
+
+				{//Journey Of The Prairie King: The Motion Picture
+				"Tag": "summer_movie_0",
+				"Response": "like",
+				"Whitelist": [],
+				"SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "I hear the Prairie King is very exciting. Thank you for inviting me to see it with you.$h"
+					},
+					"DuringMovie": null,
+					"AfterMovie": {
+						"ResponsePoint": "PK_villain",
+						"Script": "/message \"Antoine is on the edge of his seat.\"",
+						"Text": "No, sheriff! Look out!$9"
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "That was exciting! I'm really glad that the sheriff managed to keep that wagon train safe, but I think I need to go home and take a nap now.$h"
+					}
+				},
+				"ID": "reaction_2"
+				},
+
+				{//Mysterium
+					  "Tag": "fall_movie_0",
+					  "Response": "love",
+					  "Whitelist": [],
+					  "SpecialResponses": {
+							"BeforeMovie": {
+								  "ResponsePoint": null,
+								  "Script": "",
+								  "Text": "Oooh I hope there's lots of blood and gore!"
+								  },
+							"DuringMovie": {
+								  "ResponsePoint": null,
+								  "Script": "/emote Juliet 20",
+								  "Text": "Are you scared? You look scared! Do you need me to hold your hand?$1"
+								  },
+							"AfterMovie": {
+								  "ResponsePoint": null,
+								  "Script": "",
+								  "Text": "Fan-freaking-tastic! Hey, you know what we should do now? Go for a long walk in the dark woods.$1#$b#Hah, @, your face!$1"
+									  }
+								},
+					  "ID": "reaction_3"
+				},
+
+				{//The Miracle At Coldstar Ranch
+				  "Tag": "winter_movie_0",
+				  "Response": "neutral",
+				  "Whitelist": [],
+				  "SpecialResponses": {
+					"BeforeMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Um, you want to go see a movie with me? Right now? I mean, I guess I will, since you're the one that's asking @.$s"
+					},
+					"DuringMovie": {
+						"ResponsePoint": null,
+						"Script": "/message \"Antoine took his coat off and is using it like a blanket.\"",
+						"Text": "Hmm? No, I'm having a good time. The theater is nice and warm.$0"
+					},
+					"AfterMovie": {
+						"ResponsePoint": null,
+						"Script": "",
+						"Text": "Hey, @, do you really buy into this Winter Star stuff?$s#$b#I mean, it's a nice story and all, but it feels a little ... hollow, I guess? I love magic, but relying on it to not starve? ...$6#$b#Sorry, I know you brought me to have a good time. I hope I didn't bring the mood down too much.$0"
+					}
+				},
+				"ID": "reaction_4"
+				},
+
+				{//Natural Wonders: Exploring Our Vibrant World
+				"Tag": "spring_movie_1",
+				"Response": "love",
+				"Whitelist": [],
+				"SpecialResponses": {
+				  "BeforeMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "This movie should be very educational, I'm looking forward to it.$h"
+				  },
+				  "DuringMovie":  null,
+					  "Script": "/message \"Antoine is paying very close attention.\"",
+					  "Text": ""
+				  },
+				  "AfterMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "I  really liked that. I learned a lot and the animals were absolutely adorable!"
+				  },
+			  "ID": "reaction_5"
+			  	},
+
+				{//Wumbus
+				"Tag": "summer_movie_1",
+				"Response": "love",
+				"Whitelist": [],
+				"SpecialResponses": {
+				  "BeforeMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "I'm really looking forward to this one!$h"
+				  },
+				  "DuringMovie": {
+					  "ResponsePoint": null,
+					  "Script": "/message \"Antione looks absolutely delighted and is laughing quite hard at all of the funny moments.\"",
+					  "Text": ""
+				  },
+				  "AfterMovie": {
+					  "ResponsePoint": null,
+					  "Script": "/message \"Antoine is laughing.\"",
+					  "Text": "I think I need a FoodBot too!$h"
+				  }
+			  },
+			  "ID": "reaction_6"
+			  	},
+
+				{//It Howls In The Rain
+				"Tag": "fall_movie_1",
+				"Response": "like",
+				"Whitelist": [],
+				"SpecialResponses": {
+				  "BeforeMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "I, um, thanks for inviting me. I'll admit I'm a little nervous about this one."
+				  },
+				  "DuringMovie": {
+					  "ResponsePoint": null,
+					  "Script": "/message \"Antione is tightly gripping his shirt.\"",
+					  "Text": ""
+				  },
+				  "AfterMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "D-do you think you could walk me home?$9#$b#Ha, ha. Nevermind. I can make it on my own, I think.$0"
+				  }
+			  },
+			  "ID": "reaction_7"
+			  	},
+
+				{//The Zuzu City Express
+				"Tag": "winter_movie_1",
+				"Response": "neutral",
+				"Whitelist": [],
+				"SpecialResponses": {
+				  "BeforeMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "Oh, isn't this a romantic movie? I find those a litle ... frustrating.$s"
+				  },
+				  "DuringMovie": {
+					  "ResponsePoint": "zuzucityexpress_mind_heart",
+					  "Script": "",
+					  "Text": "This is so unfair. She can't possibly make an informed choice right now.$a"
+				  },
+				  "AfterMovie": {
+					  "ResponsePoint": null,
+					  "Script": "",
+					  "Text": "How disappointing. The movie could have at least had the courtesy of giving us a proper ending after so much drama.$s#$b#Oh, uh, sorry I didn't hate the movie or anything. The choice just seemed so obvious from the start and it was sort of tiring to watch her keep going back to him.$0"
+				  }
+			  },
+			  "ID": "reaction_8"
+			  	}
+                      ]
+               }
+            }
+  },
+
+
+{//Concession Tastes
+   "LogName": "Movie Theatre - Concession Tastes Default",
+   "Action": "EditData",
+   "Target": "Data/ConcessionTastes",
+   "Entries":  {
+	"Antoine": {
+		"Name": "Antoine",
+		"LovedTags": ["Black Licorice", "Cappuccino Mousse Cake", "Chocolate Popcorn", "Cotton Candy", "Fries", "Hummus Snack Pack", "Ice Cream Sandwich", "Jasmine Tea", "Jawbreaker", "Kale Smoothie", "Nachos", "Panzanella Salad", "Personal Pizza", "Popcorn", "Rock Candy", "Salmon Burger", "Salted Peanuts", "Sour Slimes", "Stardrop Sorbet", "Truffle Popcorn"],
+		"LikedTags": ["Joja Cola", "JojaCorn"],
+		"DislikedTags": ["Apple Slices"] 
+	}}}]}
