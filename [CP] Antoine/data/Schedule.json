@@ -1,0 +1,66 @@
+/*
+<time> <map> <X coordinate> <Y coordinate> <direction to face>
+
+schedules should start no earlier than 610
+
+NPCs walk slowly, allow them around 2 hours per map they need to cross. To walk from Marnie's ranch to the Adventurer's Guild takes about 3-4 hours.
+
+There are three maps that are out of bounds to NPCs: The backwoods, the secret woods, and the farm. If you include any of these areas in the NPC's schedule, they will simply refuse to move.
+
+Some places are extremely popular for NPCs to stand: In the middle of the end of the jetties, in front of Mona's grave… Stalk your NPC.
+*/
+
+{//Regular Daily
+	"Changes": [
+		{
+			"LogName": "Schedule - Regular",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Antoine",
+			"Entries": {
+
+
+//RAIN
+
+    "rain": "GOTO spring_Sun",
+    "rain2": "900 SeedShop 34 5 0/1100 SeedShop 9 17 3/1400 Saloon 42 17 2 abigail_sit_down/2000 SeedShop 1 9 3 abigail_sleep",
+
+//SPRING
+    "spring": "700 SeedShop 39 5 0/1030 ScienceHouse 5 19 1/1430 Beach 30 34 2 \"Strings\\schedules\\Abigail:winter_15.000\"/2400 SeedShop 1 9 3 abigail_sleep",
+    "spring_Sun": "900 SeedShop 11 5 0 \"Strings\\schedules\\Abigail:spring_4.000\"/1230 Hospital 13 14 0 \"Strings\\schedules\\Abigail:spring_4.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Abigail:spring_4.002\"/1600 SeedShop 10 5 0/2000 SeedShop 1 9 3 abigail_sleep",
+
+//SUMMER
+    "summer": "GOTO spring",
+    "summer_Sun": "GOTO spring_Sun",
+
+//FALL
+    "fall": "GOTO spring",
+    "fall_Sun": "GOTO spring_Sun",
+
+//WINTER
+    "winter": "900 custom_AntoineInterior # # #/",
+    "winter_Tues": "GOTO spring_Tues",
+    "winter_Wed": "GOTO spring_Wed",
+    "winter_Thurs": "GOTO spring_Thurs",
+    "winter_Fri": "GOTO spring_Fri",
+    "winter_Sat": "GOTO spring_Sat",
+    "winter_Sun": "GOTO spring_Sun",
+
+//SPECIAL
+    "Sun": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2/2000 SeedShop 1 9 3 abigail_sleep"
+
+},
+
+{ //Makes Antoine run around in the void until his Year 2 introduction
+			"LogName": "Schedule - To The Void With You",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Antoine",
+			"Entries": {
+				"spring": "0 Custom_AntoineInterior -100 -100 2/900 Custom_AntoineInterior -105 100/1200 Custom_AntoineInterior -100 -100 2"
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=50709911": true,
+				"HasSeenEvent:hostPlayer |contains=50709915": false
+			}
+		},
+    ]
+}

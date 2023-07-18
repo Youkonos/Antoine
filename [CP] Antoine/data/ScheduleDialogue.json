@@ -1,0 +1,39 @@
+/*Examples for later
+	"winter_17.000": "The travelers come from near and far, bringing their wares and their tales.",
+	"saturday.001": "There have been strange beings sighted in the water, @. Perhaps one day I shall see one.$3",
+*/	
+
+{
+//TOO BUSY FOR FARMER
+
+	//Generally Busy
+	"000": "%Antoine gives you a smile and a wave, but otherwise looks too busy to talk right now.",
+
+	//Antoine Busy Casting
+	"001": "%Antoine smiles at you, but is too busy casting to speak to you right now.",
+
+	//Antoine Listing to Headphones
+	"002": "%Antoine is too engrossed in his music to notice you.",
+
+
+//LAPTOP COMMENTARY         //Note: Want to random token these when I figure out how.
+
+	//Cat Video "Flower Crashes Cat" - https://www.youtube.com/watch?v=ncNwe13rguE
+	"laptop_000": "Have you seen this video, @? A girl is singing a folk song to her cat, then puts a flower put on top of it's head and gets a look of existential dread, like it's seeing straight into the heart of the universe. It's pretty funny.$h",
+
+
+//READING A BOOK           //Note: Want to random token these when I figure out how.
+
+	//Generic Book
+	"book_000": "Hi, @. I'm sort of absorbed in this book here. I hope you don't mind.$0",
+
+
+//TOO DAMN COLD
+
+	//Generally Busy - Winter Edition
+	"cold_000": "%Antoine looks sort of miserable and definitely doesn't want to talk right now.",
+
+	//Antoine Busy Casting - Winter Edition
+	"cold_001": "%Antoine ignores you because he's is too busy casting to speak to you right now."
+
+}

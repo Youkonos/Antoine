@@ -1,0 +1,407 @@
+{
+"Changes": [
+
+/*/Vanilla/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Abigail",
+		"Entries": {
+						"DidYouSeeThatTree": "Hey, @, did you notice this pink haired guy wandering around? I think he's a wizard, I definitely saw him casting some kind of magic spell last night after I snuck out.$6",
+		},
+	},
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+						"DidYouSeeThatTree": "It's curious, while is actually isn't that uncommon for things to grow quite large overnight due to the enriched soil of the valley, it having a large home built into it is another matter entirely.$3"
+		},
+	},
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Dwarf",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+						},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Emily",
+		"Entries": {
+						"DidYouSeeThatTree": "I didn't get much sleep last night. I kept hearing someone singing faintly in the distance, but Haley says it was just the wind.$s"
+		},
+	},
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+/*/	
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Haley",
+		"Entries": {
+						"DidYouSeeThatTree": "Ugh, Emily was bugging me all night last night about hearing someone singing outside. There wasn't even anything out there, and I didn't hear any singing at all! So annoying. I almost didn't get my eight hours in.$a"
+		},
+	},
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Krobus",
+		"Entries": {
+						"DidYouSeeThatTree": "There was a strange thing in the wind last night. Did you smell it too?$0"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leah",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"Entries": {
+						"DidYouSeeThatTree": "It seems there is a new neighbor of nature here in the valley. I hope he is welcomed warmly.$2"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marlon",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries": {
+						"DidYouSeeThatTree": "Abigail is convinced that the giant tree house that popped up out of nowhere came from some sort of pink haired man casting a magical spell, which seems pretty silly. Right?$0"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+						"DidYouSeeThatTree": "The kids are pretty excited about the new tree house that showed up. I've been warning them not to go and play in it. It belongs to someone.$3"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+						"DidYouSeeThatTree": "Yeah, that tree house is pretty wild, huh? The guy who owns it seem okay. Kind of boring.$0"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},	
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+						"DidYouSeeThatTree": "Abigail kept texting me about some pink haired wizard last night, but I thought she was just trolling me.$0"
+		},
+	},	
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+						"DidYouSeeThatTree": "Did you see the big tree house?! It looks so cool!$2 #b# Miss Penny says we're not allowed to go play in it thought.$3"
+						
+		},
+	},
+
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"Entries": {
+						"DidYouSeeThatTree": ""
+		},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"Entries": {
+						"DidYouSeeThatTree": "It would seem Antoine has already made himself quite a home among the townspeople. I hope he understands what he's getting into.$0"
+		},
+	},
+
+
+/*/Juliet & Jessie/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Juliet",
+		"When": { "HasMod: |contains=LemurKat.JulietHouse.NPC": true},
+		"Entries": {
+						"DidYouSeeThatTree": "So it turns out, besides the whole magic deal, that Antoine guy is kinds boring. There wasn't anything weird or mystical or cool inside his tree house at all.$0"
+					},
+	},
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jessie",
+		"When": { "HasMod: |contains=LemurKat.JulietHouse.NPC": true},
+		"Entries": {
+						"DidYouSeeThatTree": "It seems the town is already buzzing with gossip about our newest resident, but when you make an entrance like he did, it's pretty hard not to, isn't it?$h"
+					},
+	},
+
+/*/East Scarp/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Rosa",
+		"When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true},
+		"Entries": {
+						"DidYouSeeThatTree": "Oh, I've definitely met the new guy. He was here as soon as I opened up asking what I was making for breakfast that smelled so good.$h"
+					},
+	},
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Aideen",
+		"When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true},
+		"Entries": {
+						"DidYouSeeThatTree": ""
+					},
+	},
+/*/
+
+/*/
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jacob",
+		"When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true},
+		"Entries": {
+						"DidYouSeeThatTree": ""
+					},
+	},
+/*/
+
+
+	{ 
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Eloise",
+		"When": { "HasMod: |contains=LemurKat.EastScarpe.CP": true},
+		"Entries": {
+						"DidYouSeeThatTree": "The big tree house is pretty interesting, isn't it? I thought it would have a very big bird living in it, but it just belongs to a normal person.$0"
+					},
+	}
+
+		
+]
+}

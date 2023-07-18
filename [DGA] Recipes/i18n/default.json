@@ -1,0 +1,18 @@
+{
+  "object.An.MysteryExtract.name": "Mysterious Extract",
+  "object.An.MysteryExtract.description": "This definitely tastes like something.",
+  "object.An.MysteryCordial.name": "Cordial",
+  "object.An.MysteryCordial.description": "It's a fresh and fruity drink!",
+  "object.An.SouthernTea.name": "Southern Style Tea",
+  "object.An.SouthernTea.description": "Who knew tea could be good cold and full of sugar?",
+  "object.An.SourWater.name": "Sour Water",
+  "object.An.SourWater.description": "Water too boring? Jazz it up with, uh, whatever this is!",
+  "crafting.An.SlimeCheese.name": "Slime Cheese",
+  "crafting.An.SlimeCheese.description": "It smells like cheese, and kind of looks like cheese, but it's probably best not to eat this.",
+  "crafting.An.Seafu.name": "Seafu",
+  "crafting.An.Seafu.description": "This friendly faux fish is made from salty, savory seaweed and spuds.",
+  "crafting.An.TheColdChaser.name": "The Cold Chaser",
+  "crafting.An.TheColdChaser.description": "Apparently this hot, tart, spicy tea is meant to chase the cold away.",
+  "An.FoodGifted": "Is this one of mine? I'd love to taste your take on it!$h",
+  "An.SlimeCheeseGifted": "Oh, you uh, you made this one huh? No, I'll definitely take it.$0",
+}

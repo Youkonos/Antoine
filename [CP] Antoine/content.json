@@ -182,13 +182,20 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-          "Antoine": "Oh! This is great! Thank you!/208 280 416 492 -79 -81 -74/Oh this is very nice. Thank you./-4 -7 -5 -6 -18 -25/Oh! You’re giving this to me? I’ll find some use for it. Thank you./-12 -2/Um. I’ll find some kind of use for it. Thanks./-28/Is this a gift? That's very nice of you. Thank you.// "
+          "Antoine": "Oh! This is great! Thank you!/208 280 416 492 -79 -81 -74/Oh this is very nice. Thank you./-4 -7 -5 -6 -18 -25/Oh! You're giving this to me? I'll find some use for it. Thank you./-12 -2/Um. I'll find some kind of use for it. Thanks./-28/Is this a gift? That's very nice of you. Thank you.// "
       }
   },
 
-
 //Enabled later
-/*
+/*/
+
+NOTE: Will want to add below code to things so they don't trigger until the intro event that should play in Y2.
+
+"When": {
+    "HasSeenEvent": "17317001"
+}
+
+
 {
     //Antoine AntiSocial Flag
     "Action": "EditData",
@@ -206,8 +213,17 @@
 
 }
 },
-*/
+/*/
 
+//Animations
+/*/
+{
+    "LogName": "Animations",
+    "Action": "EditData",
+    "Target": "Data/animationDescriptions",
+    "FromFile": "data/Animation.json"
+},
+/*/
 //Rainy Dialogue
 
 {

@@ -1,0 +1,300 @@
+[
+
+//Mystery Extract
+	{
+		"$ItemType": "Object",
+		"ID": "An.MysteryExtract",
+		"Texture": "assets/extract.png",
+		"Category": "Cooking",
+        "Edibility": "2",
+		"EdibleIsDrink": false,
+		"SellPrice": 660,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+	
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.MysteryExtract",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.MysteryExtract",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Periwinkle
+				"Type": "VanillaObject",
+				"Value": 722,
+			},
+			{//Parsnip
+				"Type": "VanillaObject",
+				"Value": 24,
+			},
+			{//Red Mushroom
+				"Type": "VanillaObject",
+				"Value": 420,
+			},
+		],
+    },
+
+	
+//Mystery Cordial
+	{
+		"$ItemType": "Object",
+		"ID": "An.MysteryCordial",
+		"Texture": "assets/cordial.png",
+		"Category": "Cooking",
+        "Edibility": "65",
+		"EdibleIsDrink": true,
+		"SellPrice": 700,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.MysteryCordial",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.MysteryCordial",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Sugar
+				"Type": "VanillaObject",
+				"Value": 245,
+				"Quantity": 1,
+			},
+			{//Fruit
+				"Type": "VanillaObject",
+				"Value": -79,
+				"Quantity": 1,
+			},
+			{
+				"Type": "DGAItem",
+				"Value": "Berry.DGA.AntoineRecipes/An.MysteryExtract",
+				"Quantity": 2,
+			},
+		],
+    },
+
+
+//Southern Style Tea
+	{
+		"$ItemType": "Object",
+		"ID": "An.SouthernTea",
+		"Texture": "assets/southerntea.png",
+		"Category": "Cooking",
+        "Edibility": "65",
+		"EdibleIsDrink": true,
+		"SellPrice": 800,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.SouthernTea",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.SouthernTea",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Tea Leaves
+				"Type": "VanillaObject",
+				"Value": 815
+			},
+			{//Honey
+				"Type": "VanillaObject",
+				"Value": 340,
+			},
+			{//Sugar
+				"Type": "VanillaObject",
+				"Value": 245,
+				"Quantity": 3,
+			},
+		],
+    },
+
+//Slime Cheese
+	{
+		"$ItemType": "Object",
+		"ID": "An.SlimeCheese",
+		"Texture": "assets/slimecheese.png",
+		"Category": "ArtisanGoods",
+        "Edibility": "-10",
+		"EdibleIsDrink": true,
+		"SellPrice": 10,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.SlimeCheese",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.SlimeCheese",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Slime
+				"Type": "VanillaObject",
+				"Value": 766,
+			},
+			{//Milk
+				"Type": "VanillaObject",
+				"Value": -6,
+			}
+		],
+    },
+
+//Seafu
+	{
+		"$ItemType": "Object",
+		"ID": "An.Seafu",
+		"Texture": "assets/seafu.png",
+		"Category": "Fish",
+        "Edibility": "25",
+		"EdibleIsDrink": false,
+		"SellPrice": 50,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.Seafu",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.Seafu",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Seaweed
+				"Type": "VanillaObject",
+				"Value": 152,
+			},
+			{//Potato
+				"Type": "VanillaObject",
+				"Value": 192,
+			}
+		],
+    },
+
+//The Cold Chaser
+	{
+		"$ItemType": "Object",
+		"ID": "An.TheColdChaser",
+		"Texture": "assets/coldchaser.png",
+		"Category": "Cooking",
+        "Edibility": "75",
+		"EdibleIsDrink": true,
+		"EdibleBuffs": {
+			"Defense": 1,
+			"MaxStamina": 1,
+			"Duration": 300,
+		},
+		"SellPrice": 960,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.TheColdChaser",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.TheColdChaser",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{//Tea Leaves
+			"Type": "VanillaObject",
+			"Value": 815
+			},
+			{//Honey
+				"Type": "VanillaObject",
+				"Value": 340,
+			},
+			{//Ginger
+				"Type": "VanillaObject",
+				"Value": 829,
+			},
+			{
+				"Type": "DGAItem",
+				"Value": "Berry.DGA.AntoineRecipes/An.MysteryExtract",
+				"Quantity": 1,
+			},
+		],
+    },
+
+//Sour Water
+	{
+		"$ItemType": "Object",
+		"ID": "An.SourWater",
+		"Texture": "assets/SourWater.png",
+		"Category": "Cooking",
+        "Edibility": "65",
+		"EdibleIsDrink": true,
+		"SellPrice": 640,
+		"HideFromShippingCollection": true,
+		"Placeable": false,
+	},
+
+	{
+        "$ItemType": "CraftingRecipe",
+        "ID": "An.SourWater",
+        "IsCooking": true,
+		"Result": {
+			"Type": "DGAItem",
+			"Value": "Berry.DGA.AntoineRecipes/An.SourWater",
+			"Quantity": 1,
+			},
+		"Ingredients": [
+			{
+				"Type": "DGAItem",
+				"Value": "Berry.DGA.AntoineRecipes/An.MysteryExtract",
+				"Quantity": 1,
+			},
+		],
+    },
+
+	
+    {
+        "$ItemType": "GiftTaste",
+		"ObjectId": "Berry.DGA.AntoineRecipes/An.MysteryExtract, Berry.DGA.AntoineRecipes/An.MysteryCordial, Berry.DGA.AntoineRecipes/An.SouthernTea, Berry.DGA.AntoineRecipes/An.Seafu, Berry.DGA.AntoineRecipes/An.TheColdChaser, Berry.DGA.AntoineRecipes/An.SourWater",
+        "Npc": "Antoine",
+        "Amount": 80,
+        "NormalTextTranslationKey": "An.FoodGifted",
+    },
+
+	{
+        "$ItemType": "GiftTaste",
+		"ObjectId": "Berry.DGA.AntoineRecipes/An.SlimeCheese",
+        "Npc": "Antoine",
+        "Amount": 45,
+        "NormalTextTranslationKey": "An.FoodGifted",
+    },
+	
+	{
+        "$ItemType": "GiftTaste",
+		"ObjectId": "Berry.DGA.AntoineRecipes/An.MysteryExtract, Berry.DGA.AntoineRecipes/An.MysteryCordial, Berry.DGA.AntoineRecipes/An.SouthernTea, Berry.DGA.AntoineRecipes/An.Seafu, Berry.DGA.AntoineRecipes/An.TheColdChaser",
+        "Npc": "*",
+        "Amount": 45,
+    }
+
+	{
+        "$ItemType": "GiftTaste",
+		"ObjectId": "Berry.DGA.AntoineRecipes/An.SimeCheese",
+        "Npc": "*",
+        "Amount": -10,
+    },
+]
