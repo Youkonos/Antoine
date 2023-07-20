@@ -11,12 +11,6 @@ Some places are extremely popular for NPCs to stand: In the middle of the end of
 */
 
 {//Regular Daily
-	"Changes": [
-		{
-			"LogName": "Schedule - Regular",
-			"Action": "EditData",
-			"Target": "Characters/schedules/Antoine",
-			"Entries": {
 
 
 //RAIN
@@ -49,18 +43,3 @@ Some places are extremely popular for NPCs to stand: In the middle of the end of
     "Sun": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2/2000 SeedShop 1 9 3 abigail_sleep"
 
 },
-
-{ //Makes Antoine run around in the void until his Year 2 introduction
-			"LogName": "Schedule - To The Void With You",
-			"Action": "EditData",
-			"Target": "Characters/schedules/Antoine",
-			"Entries": {
-				"spring": "0 Custom_AntoineInterior -100 -100 2/900 Custom_AntoineInterior -105 100/1200 Custom_AntoineInterior -100 -100 2"
-			},
-			"When": {
-				"HasSeenEvent:hostPlayer |contains=50709911": true,
-				"HasSeenEvent:hostPlayer |contains=50709915": false
-			}
-		},
-    ]
-}

@@ -105,13 +105,12 @@
 
     ],
 
-    "Changes": [
+"Changes": [
 //B A S E   L O A D I N G
 
-//TESTING JELLO NPCs
 
 {
-  //Jello NPC disposition
+  //Antoine Base Disposiiton
   "LogName": "1 Load Antoine Disposition",
   "Action": "EditData",
   "Target": "Data/NPCDispositions",
@@ -122,14 +121,14 @@
 
 //Load Stuff
       {
-        "LogName": "1 Load Jello Char",
+        "LogName": "1 Load Antoine Char",
       "Action": "Load",
        "Target": "Characters/Antoine",
        "FromFile": "assets/Characters/Antoine.png",
           },
 
       {
-      "LogName": "1 Load Jello Port",
+      "LogName": "1 Load Antoine Port",
        "Action": "Load",
        "Target": "Portraits/Antoine",
         "FromFile": "assets/Portraits/Antoine.png",
@@ -144,12 +143,21 @@
 
   //Load Schedule
   {
-      //Blank until introduced
-      "LogName": "1Load Base (Empty)Schedule",
+      //Contains content. Overwrite when not introduced
+      "LogName": "1Load Base Schedule",
       "Action": "Load",
       "Target": "Characters/schedules/Antoine",
       "FromFile": "data/schedule.json"
     },
+
+    //Load Schedule
+    {
+        //Contains content. Overwrite when not introduced
+        "LogName": "1Load Base Schedule Dialogue",
+        "Action": "Load",
+        "Target": "Strings/schedules/Antoine",
+        "FromFile": "data/ScheduleDialogue.json"
+      },
 
 
 
@@ -186,8 +194,36 @@
       }
   },
 
+
+  //ANIMATIONS
+  /*/
+  The numbers correspond to the frame on the sprite sheet. and they go in: pre-animation/looping animation/post-animation. Pre and post are generally identical, only mirror imaged.
+
+  The speed is predetermined (I think around 120 ms) so you will need to repeat the same frame multiple times to avoid having them move very fast.
+  /*/
+
+/*{
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+          "Antoine_LCast": "",
+          "Antoine_RCast": "",
+          "Antoine_DrinkTea": "",
+          "Antoine_Read": "",
+          "Antoine_Laptop": "",
+          "Antoine_Dance": "",
+          "Antoine_MusicL": "",
+          "Antoine_MusicSit": "",
+          "Antoine_SnackSammy": "",
+          "Antoine_SnackCookie": "",
+          "Antoine_OnGrass": "",
+          "Antoine_CleanL": ""
+      }
+  }*/
+
 //Enabled later
-/*/
+/*
 
 NOTE: Will want to add below code to things so they don't trigger until the intro event that should play in Y2.
 
@@ -213,17 +249,16 @@ NOTE: Will want to add below code to things so they don't trigger until the intr
 
 }
 },
-/*/
+*/
+//***MOVIE REACTIONS and Gossip Load
 
-//Animations
-/*/
-{
-    "LogName": "Animations",
-    "Action": "EditData",
-    "Target": "Data/animationDescriptions",
-    "FromFile": "data/Animation.json"
-},
-/*/
+		{
+					 "Action": "Include",
+					 "FromFile": "data/MovieReactions.json, data/Gossip.json",
+				},
+
+
+
 //Rainy Dialogue
 
 {
@@ -338,6 +373,23 @@ NOTE: Will want to add below code to things so they don't trigger until the intr
 
     },
 },
+
+//SCHEDULE CHANGES
+
+{ //Makes Antoine run around in the void until his Year 2 introduction
+			"LogName": "Schedule - To The Void With You",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Antoine",
+			"Entries": {
+				"spring": "0 Custom_AntoineInterior -100 -100 2/900 Custom_AntoineInterior -105 100/1200 Custom_AntoineInterior -100 -100 2"
+			},
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=50709911": true,
+				"HasSeenEvent:hostPlayer |contains=50709915": false
+			}
+		},
+
+
 
     ]
 }
